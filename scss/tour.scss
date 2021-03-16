@@ -1,0 +1,214 @@
+.tour {
+  header {
+    @include center(981px, 20px auto 0 auto);
+    height: 200px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(../images/tour/tours-header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      text-transform: uppercase;
+      color: #fff;
+      font-family: Proximafont;
+      font-size: 60px;
+    }
+  }
+
+  .tours {
+    @include center(818px, 48px auto 0 auto);
+    min-height: 200px;
+    //background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    h1 {
+      color: $site-white;
+      font-size: 60px;
+      font-family: proximaFont;
+      font-weight: normal;
+      margin-bottom: -8px;
+     }
+
+     h2 {
+      color: $site-white;
+      font-size: 30px;
+      font-family: proximaFont;
+      font-weight: normal;
+      padding-bottom: 67px;
+     }
+
+     a {
+       color: $site-white;
+       text-decoration: none;
+     }
+
+     .promoBtn {
+      @include siteButton;
+      color: $site-white;
+      font-family: gill;
+      padding-left: 21px;
+      padding-right: 21px;
+    }
+
+    
+
+    .toursPromo {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-01.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo2 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-02.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo3 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo4 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-04.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo4 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-04.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo5 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-05.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo6 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-06.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo7 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-07.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo8 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-08.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .toursPromo9 {
+      width: 236px;
+      height: 304px;
+      //margin: 0 55px 55px 0;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: $overlay, url(../images/tour/tour-09.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .tour {
+    .tours {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

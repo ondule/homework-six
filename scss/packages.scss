@@ -1,0 +1,899 @@
+.package {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-01.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package2 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-07.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package3 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-02.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package4 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-03.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package5 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-04.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package6 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-05.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package7 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-06.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package8 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-08.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}
+
+.package9 {
+    margin-top: 46.5px;
+    header {
+        margin: 0 auto;
+        background-image: $overlay, url(../images/tour/tour-09.jpg);
+        width: 982px;
+        height: 413px;
+        background-position: center;
+        background-size: cover;
+
+        h1 {
+            font-family: proximaFont;
+            font-size: 80px;
+            color: $site-white;
+            font-weight: normal;
+            padding-top: 30px;
+        }
+
+        h2 {
+            font-family: proximaFont;
+            font-size: 30px;
+            color: $site-white;
+            font-weight: normal;
+            margin-left: 610px;
+            margin-top: 255.5px;
+        }
+    }
+    .images {
+        margin: 0 auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 978px;
+        height: 347px;
+        //background-color: aqua;
+        margin-bottom: 39px;
+
+        .image1 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image2 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .image3 {
+            width: 298px;
+            height: 347px;
+            background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .day {
+        width: 978px;
+        margin: 0 auto;
+        //background-color: pink;
+        margin-bottom: 80px;
+
+        h3 {
+            font-family: proximaFont;
+            font-size: 60px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            //border-style: solid;
+            border-bottom: solid;
+            width: 171px;
+        }
+
+        
+    }
+    .promoBtn {
+        @include siteButton;
+        color: $site-white;
+        font-family: gill;
+        padding-left: 21px;
+        padding-right: 21px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        width: 135px;
+        margin-bottom: 100px;
+
+        a {
+            text-decoration: none;
+            color: $site-white;
+        }
+      }
+}

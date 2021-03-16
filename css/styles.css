@@ -1,0 +1,1104 @@
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.copy {
+  font-family: gill;
+  color: #ffffff;
+  font-size: 12;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 112px;
+  height: 24px;
+}
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    margin-top: -50px;
+    height: 180px;
+    flex-direction: column;
+  }
+
+  .copy {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .social {
+    margin-bottom: 20px;
+  }
+}
+.alt-nav {
+  width: 980px;
+  height: 100px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+.alt-nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-black.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.alt-nav .links {
+  display: flex;
+  width: 532px;
+  height: 42px;
+  padding-top: 26px;
+  font-family: gill;
+  font-size: 15px;
+  justify-content: space-between;
+  letter-spacing: 1.25px;
+}
+.alt-nav div.pipe {
+  background-color: #79addc;
+  height: 21px;
+  width: 2px;
+}
+.alt-nav div a {
+  text-decoration: none;
+  color: black;
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: gill;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gill;
+  src: url(fonts/GillSansStd.otf);
+}
+@font-face {
+  font-family: proximaFont;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: gillLight;
+  src: url(fonts/GillSansStd.otf);
+  font-weight: lighter;
+}
+.tour header {
+  max-width: 981px;
+  margin: 20px auto 0 auto;
+  height: 200px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tour header span {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Proximafont;
+  font-size: 60px;
+}
+.tour .tours {
+  max-width: 818px;
+  margin: 48px auto 0 auto;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tour .tours h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-family: proximaFont;
+  font-weight: normal;
+  margin-bottom: -8px;
+}
+.tour .tours h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: proximaFont;
+  font-weight: normal;
+  padding-bottom: 67px;
+}
+.tour .tours a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tour .tours .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+.tour .tours .toursPromo {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo2 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo3 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo4 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo4 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo5 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo6 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo7 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo8 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.tour .tours .toursPromo9 {
+  width: 236px;
+  height: 304px;
+  margin-bottom: 55px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media all and (max-width: 1200px) {
+  .tour .tours {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.package {
+  margin-top: 46.5px;
+}
+.package header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package2 {
+  margin-top: 46.5px;
+}
+.package2 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package2 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package2 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package2 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package2 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package2 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package2 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package2 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package2 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package2 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package2 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package3 {
+  margin-top: 46.5px;
+}
+.package3 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package3 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package3 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package3 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package3 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package3 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package3 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package3 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package3 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package3 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package3 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package4 {
+  margin-top: 46.5px;
+}
+.package4 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package4 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package4 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package4 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package4 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package4 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package4 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package4 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package4 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package4 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package4 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package5 {
+  margin-top: 46.5px;
+}
+.package5 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package5 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package5 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package5 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package5 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package5 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package5 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package5 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package5 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package5 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package5 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package6 {
+  margin-top: 46.5px;
+}
+.package6 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package6 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package6 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package6 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package6 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package6 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package6 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package6 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package6 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package6 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package6 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package7 {
+  margin-top: 46.5px;
+}
+.package7 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package7 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package7 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package7 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package7 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package7 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package7 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package7 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package7 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package7 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package7 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package8 {
+  margin-top: 46.5px;
+}
+.package8 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package8 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package8 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package8 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package8 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package8 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package8 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package8 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package8 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package8 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package8 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.package9 {
+  margin-top: 46.5px;
+}
+.package9 header {
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  width: 982px;
+  height: 413px;
+  background-position: center;
+  background-size: cover;
+}
+.package9 header h1 {
+  font-family: proximaFont;
+  font-size: 80px;
+  color: #ffffff;
+  font-weight: normal;
+  padding-top: 30px;
+}
+.package9 header h2 {
+  font-family: proximaFont;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 610px;
+  margin-top: 255.5px;
+}
+.package9 .images {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 978px;
+  height: 347px;
+  margin-bottom: 39px;
+}
+.package9 .images .image1 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package9 .images .image2 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package9 .images .image3 {
+  width: 298px;
+  height: 347px;
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.package9 .day {
+  width: 978px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.package9 .day h3 {
+  font-family: proximaFont;
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-bottom: solid;
+  width: 171px;
+}
+.package9 .promoBtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #79addc;
+  color: #ffffff;
+  font-family: gill;
+  padding-left: 21px;
+  padding-right: 21px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  margin-bottom: 100px;
+}
+.package9 .promoBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
